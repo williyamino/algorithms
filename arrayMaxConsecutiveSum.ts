@@ -4,7 +4,6 @@ function arrayMaxConsecutiveSum(array: number[], n: number) {
 
   for (let i = 0; i < n; i++) {
     sum += array[i];
-    //console.log(sum);
   }
 
   max = sum;
